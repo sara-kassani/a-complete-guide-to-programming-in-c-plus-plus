@@ -44,8 +44,8 @@ int main()
             }
         }
 
-        cout    << endl << "Do you want to play again (Y/N): ";
-        cin     >> m_cPlayAgain;
+        cout << endl << "Do you want to play again (Y/N): ";
+        cin.get( m_cPlayAgain );
     } while ( m_cPlayAgain == 'Y' );
 
     return 0;
